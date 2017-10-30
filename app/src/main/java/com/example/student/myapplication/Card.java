@@ -34,13 +34,13 @@ public class Card extends FrameLayout {
 
     }
     TextView tv;
-    int view;
+    int value;
      public int getNum()
     {
         return value;
     }
     public void setNum(int num){
-    value = num;
+   value=num;
 
         if (num > 0)
         tv.setText(Integer.toString(num));
